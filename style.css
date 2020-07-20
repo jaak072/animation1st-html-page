@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-Jul-2020, 10:38:34 pm
+    Author     : jawed
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #cfebe8;
+}
+.navbar{
+    background-color: #0db9a8;
+    color: #5f5757;
+    height: 50px;
+    padding: 20px;
+    border-bottom: 3px solid #35c2b4;
+}
+.navbar h1{
+    display: inline-block;
+    font-family: 'Grenze Gotisch', cursive;
+    margin-left: 60px;
+}
+.navbar h1:hover{
+    color: #dc5a2c;
+}
+#nav{
+    margin-right: 100px;
+}
+#nav ul li{
+    display: inline;
+}
+
+#nav a {
+    text-decoration: none;
+    display: inline-block;
+    color: #666;
+    padding-left: 60px;
+    float: right;
+}
+#nav ul li a:hover{
+    color: red;
+}
+.container{
+    background-color: white;
+    width: 0%;
+    position: relative;
+    left: 35%;
+    top: 105px;
+    height: 470px;
+    animation-name: container;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.container a{
+    text-align: justify;
+    
+}
+@keyframes container{
+    from{
+        background-color:white;
+    }
+    to{
+        width:48%;
+    }
+    
+}
+#img{
+    position: absolute;
+    top: 30px;
+    height: 350px;
+    opacity: 0;
+    width: 372px;
+    animation-name: img1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+@keyframes img1{
+    from{
+        
+    }
+    to{
+        opacity:1;
+    }
+}
+.container1{
+    background-color: #f2ad16;
+    width: 0%;
+    position: relative;
+    left: 52%;
+    top: 9%;
+    height: 350px;
+    animation-name: container1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes container1{
+    from{
+        background-color:white;
+    }
+    to{
+        width: 55%;
+    }
+    
+}
+.cantent{
+    position: absolute;
+    opacity: 0;
+    width: 372px;
+    animation-name: img1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+.cantent h3{
+    margin-left: 32px;
+    padding-top: 20px;
+    color: #0c0b0a;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 2em;
+
+}
+.cantent p{
+    padding: 15px;
+    margin-left: 20px;
+    color: #2a2925;
+}
+.btn{
+    display: inline-flex;
+    position: absolute;
+    opacity: 0;
+    width: 385px;
+    top: 76%;
+    left: 60%;
+    animation-name: img1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    float: left;
+    
+    
+}
+#btn1{
+    background-color: white;
+    color: #f20b57;
+    border: 2px solid #f20b57;
+    font-size: 17px;
+    height: 55px;
+    width: 200px;
+    
+}
+#btn2{
+    background-color: #f20b57;
+    color: white;
+    border: none;
+    font-size: 17px;
+    height: 55px;
+    width: 200px;
+    margin-left: 10px;
+}
+#btn1:hover{
+    background-color: #f20b57;
+    color: white;
+    border: none;
+}
+#btn2:hover{
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+}
